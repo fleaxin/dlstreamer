@@ -8,9 +8,8 @@ from the source code provided in
 ## Step 1: Clone Deep Learning Streamer repository
 
 ```bash
-git clone https://github.com/open-edge-platform/edge-ai-libraries.git
-cd edge-ai-libraries
-git submodule update --init libraries/dl-streamer/thirdparty/spdlog
+git clone --recursive https://github.com/open-edge-platform/dlstreamer.git
+cd dlstreamer
 ```
 
 ## Step 2: Run installation script
